@@ -1,0 +1,199 @@
+@import url(./base.css);
+/*Header Section*/
+.top-strip{background-color: #235745;}
+.top-strip a{text-decoration: none;color: #fff;font-size: 1rem;font-family:Rubik-Light;}
+.header{background-color: #F6F5F2;}
+.header .navbar .navbar-nav .nav-item{margin-left: 25px;}
+.header .navbar .navbar-nav .nav-item .nav-link{font-size: 1.25rem;font-family:Rubik-Regular;color:#333736;}
+.header .navbar .navbar-nav .nav-item .nav-link .active{font-size: 1.25rem;font-family: Rubik;color:#333736;}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{color: #235745;}
+.header .navbar .navbar-toggler{background-color:#235745;}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../img/list.svg);
+}
+/*Hero-Banner Section*/
+.hero-banner{width: 100%;}
+.hero-banner .card, .card .card-img{border-radius: 0;}
+.hero-banner .card .card-img-overlay{padding: 130px 0 0 0;color: #fff;}
+.hero-banner .card .card-img-overlay .btn-warning{
+	margin-top: 40px;font-family:Rubik-Bold;font-size: 1.375rem;}
+ .hero-banner .texture{position: absolute;top: -3px;z-index: 1;}
+/*Category Section Start*/
+.category{position: relative;}
+.category .textures{display: block;margin-top: -20px;position: absolute;}
+.category .cat-item{padding-top: 100px;}
+.category .cat-item .card{
+	border: 0;background-color: transparent;position: relative;margin-bottom: 20px;
+}
+
+.category .cat-item .card .btn-light{
+	color: #235745;font-size: 1.25rem;font-family:Rubik-Medium;
+	border-radius: 5px;box-shadow: 0px 0px 5px rgba(0, 0, 0, .7);padding: 12px 0;
+	width: 80%;transition: 1s;position: absolute;left: 10%;bottom: 30px;opacity: 0;
+}
+.category .cat-item .card:hover .btn-light{bottom: -25px;opacity: 1;}
+.category .cat-item .card .img-thumbnail img{transition-property: transform;transition-duration: 1s;}
+.category .cat-item .card .img-thumbnail:hover img{transform: scale(1.2);}
+
+/*Fertilizer Frenchies Section Start*/
+.ferti-frenchie .card .card-img-overlay{
+	width: 64%;text-align: right;
+	top: unset;left: unset;bottom: -90px;right: -70px;
+}
+.ferti-frenchie .card .spray{width:35% ;top: 10px;left: -80px;}
+.ferti-frenchie .info .checkbox{font-size: 1.125rem;color: #000;line-height: 25px;}
+.ferti-frenchie .info span{color: #116003;font-size: 1.25rem;}
+
+
+/*Facilities We Provide Section Start*/
+.facilities{
+	background:  url(../img/bg-texture.png) no-repeat;background-size: cover;padding: 100px 0;
+	text-align: center;
+}
+.facilities .card-deck{display: flex;justify-content: center;flex-wrap: wrap;}
+.facilities .card{
+	overflow: hidden;position: relative;border: none;box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+
+}
+.facilities .card img{transition: 1s;}
+.facilities .card:hover img{transform: scale(1.1);}
+.facilities .card .card-body{z-index: 99;}
+.facilities .card .card-body .cir{
+	width: 120px;height: 120px;background-color: #97C63A;border-radius: 50%;
+	 display: flex; justify-content: center;align-items: center;
+	margin: -80px auto 20px;
+}
+.facilities .card .card-body .cir .icons{font-size: 3rem;transition: 1s;}
+.facilities .card:hover .icons{transform: scale(1.4);z-index: 100;}
+
+/*Counter Section Start*/
+.counter{
+	background: url(../img/bg-texture-2.png) no-repeat;background-size: cover;padding: 100px 0;
+}
+.counter .display-4{font-family:Rubik-Medium;color: #F7C35F;}
+.counter h6{font-size: 1.25rem;font-family:DMSans-Regular;}
+/*Tender Section Start*/
+.tender{
+	background: url(../img/bg-img.png) no-repeat;background-size: cover;padding: 100px 0;
+}
+.tender .card-deck{display: flex;flex-wrap: wrap;justify-content: center;}
+.tender .card-deck .card{border: none;box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);padding: 20px 0;}
+.tender .card-deck .card .card-body .card-title{font-family:Rubik-Medium;color: #235745;}
+.tender .card-deck .card .card-body .card-text{
+	font-size: 1.25rem; font-family:Rubik-Medium;line-height: 36px;
+}
+.tender .card-deck .card .card-body .price{
+	background-color: #97C63A;padding: 10px 0;border-radius: 5px;margin: 1.25rem 0;
+	box-shadow: 0px 0px 0px 5px rgba(151, 198, 58, .4);color: #fff;font-family:Rubik-Bold;
+}
+.tender .card-deck .card .card-body .btn-warning{margin-top: 20px;}
+/*Quality Product Section*/
+.quality{position: relative;background-color: #F6F5F2;}
+.quality .texture{position: absolute;z-index: 99;top: -2px;}
+.quality .card .card-img-overlay{
+	background-color: rgba(45, 99, 14, .8);text-align: center;}
+.quality .card .card-img-overlay .card-title{font-family:Montserrat-Regular;line-height: 87px;}
+.quality .card .card-img-overlay .card-text{font-family:Rubik-Regular;font-size: 1.25rem;margin-bottom: 30px;}
+
+/*Message Section Start*/
+.message .card .card-img-overlay{top: 20px;left: 20px;padding: 0;}
+.message .contact h4{font-size: 2.5rem;}
+.message form .form-group .form-control{border-radius: 0;}
+.message form .form-group .form-control-lg::placeholder{font-size: 1rem;color: #535050;font-family:DMSans-Medium;}
+
+/*Link Section Start*/
+.link{background:  url(../img/link-bg.png) no-repeat;background-size: cover;
+	padding: 60px 0;position: relative;
+}
+.link .texture{position: absolute;top: 0px;z-index: 1;margin-top: -4px;}
+.link  h5{color: #fff;border-bottom: 1px solid #fff;padding: 20px 0;margin-bottom: 45px;position: relative;}
+.link .contact p, .link .get-touch p{font-family:DMSans-Bold;}
+.link .contact>p span{font-family:Rubik-Light;margin: 0 5px;}
+.link  h5:after{
+	content: "";position: absolute;width: 20%;height: 5px;background-color:#F7C35F;bottom: 0;
+	left: 0;transition: 1s;
+}
+.link .bor-hover:hover h5:after{width: 100%;}
+.link .quick-links .list-group .foot-links{color: #fff;font-family:DMSans-Bold;margin-bottom: 10px;}
+.link .quick-links .list-group .foot-links .icon-arrow{margin-right: 10px;}
+.link .get-touch form .form-group .form-control::placeholder{color:#535050;}
+
+/*Footer Section Start*/
+.footer{background: url(../img/foot-back.png) no-repeat;background-size: cover;padding: 40px 0 20px;}
+.footer p{font-family:DMSans-Bold;line-height: 20px;}
+
+
+/*Media Query*/
+@media screen and (max-width: 1080px){
+	h1{font-size: 4rem;line-height: 75px;}
+	h2{font-size: 2.875rem;line-height: 50px;}
+	.hero-banner .card .card-img-overlay{padding: 100px 0 0 0;color: #fff;}
+	.quality .card .card-img-overlay .card-title{line-height: 60px;}
+}
+@media screen and (max-width: 991px){
+	h1{font-size: 3.5rem;line-height: 60px;}
+	h2{font-size: 2.5rem;line-height: 50px;}
+	h3{font-size: 1.5rem;}
+	.hero-banner .card .card-img-overlay{padding: 50px 0 0 0;}
+	.ferti-frenchie .card .spray{width:35% ;top: 10px;left: -60px;}
+	.facilities, .tender{padding: 50px 0;}
+}
+@media screen and (max-width: 767px){
+	h1{font-size: 3rem;}
+	h2{font-size: 2rem;line-height: 40px;}
+	h3{font-size: 1.25rem;line-height: 28px;}
+	.hero-banner .card .card-img-overlay .btn-warning{margin-top: 10px;font-size: 1.125rem;}
+	.ferti-frenchie .info{margin-top: 100px;text-align: justify;}
+	.ferti-frenchie .card .card-img-overlay{bottom: -70px;right: -50px;}
+	.facilities{padding: 20px 0;}
+	.facilities .card, .tender  .card{width: 45%;flex: 0 0 45%;margin-bottom: 20px;}
+	
+	.category .cat-item {padding-top: 40px;}
+	.category .cat-item .card{margin-bottom: 0;}
+	.quality .card .card-img-overlay .card-title {line-height: 40px;}
+	.message .contact h4{font-size: 2rem;}
+	.tender{padding: 50px 0 0;}
+	.tender .card-deck .card .card-body .card-text {font-size: 1rem;line-height: 25px;}
+
+}
+@media screen and (max-width: 660px){
+	h1{font-size: 2.5rem;line-height: 45px;}
+	h2{font-size: 1.625rem;}
+	h3{font-size: 1.125rem;}
+	h4{font-size: 1.25rem;}
+	.hero-banner .card .card-img-overlay{padding: 20px 0 0 0;}
+	.hero-banner .card .card-img-overlay .btn-warning{margin-top: 00px;font-size: 1rem;}
+	.facilities .card, .tender  .card{width: 60%;flex: 0 0 60%;margin-bottom: 20px;}
+	.category .cat-item .card .btn-light{font-size: 1rem;padding: 8px 0;}
+	.ferti-frenchie .info .checkbox {font-size: 1rem;line-height: 20px;}
+	.counter{padding: 50px 0;}
+	.counter figure img{width: 30%;}
+	.counter .display-4{font-size: 2.875rem;}
+	.counter h6, .contact h6{font-size: 1rem;}
+	.message .contact h4{font-size: 1.5rem;}
+	.quality .card .card-img-overlay .card-title{font-size: 1.5rem;line-height: 30px;margin-bottom: 10px;}
+	.quality .card .card-img-overlay .card-text{font-size: 1rem;margin-bottom: 20px;}
+	
+}
+@media screen and (max-width: 575px){
+	.navbar-brand{width: 60%;}
+	h1{font-size: 2rem;line-height: 40px;}
+	p{font-size: .875rem;}
+	.btn-warning{font-size: .875rem;padding:7px 5px;}
+	.facilities .card, .tender  .card{width: 95%;flex: 0 0 95%;}
+	.quality .card .card-img-overlay .card-title {font-size: 1.25rem;line-height: 25px; margin-bottom: 5px;}
+	.quality .card .card-img-overlay .card-text {font-size: .875rem;line-height: 20px; margin-bottom: 10px;}
+}
+@media screen and (max-width: 460px){
+	h1{font-size: 1.3rem;line-height: 25px;}
+	h2{font-size: 1.125rem;line-height: 25px;}
+	h3{font-size: 1rem;line-height: 23px;}
+	.hero-banner .card .card-img-overlay{padding: 10px 0 0 0;}
+	.hero-banner .card .card-img-overlay .btn-warning{font-size: .875rem;}
+	.category .cat-item {padding-top: 10px;}
+	.counter .display-4{font-size: 2rem;}
+	.counter h6{font-size: .875rem;}
+	.tender{padding: 30px 0;}
+	.quality .card .card-img-overlay .card-title {font-size: 1rem;line-height: 20px; margin-bottom: 5px;}
+	.quality .card .card-img-overlay .card-text {font-size: .75rem;line-height: 16px; margin-bottom: 5px;}
+}
